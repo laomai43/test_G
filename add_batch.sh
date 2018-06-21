@@ -124,3 +124,8 @@ curl http://localhost:2333/user/face/image/add \
 		-F gender=2 \
 		-F image=@./images/99.PNG
 
+curl http://localhost:2333/user/face/image/add \
+	-F user_id=87\
+		-F gender=2 \
+		-F image=@./images/87.HEIC
+
